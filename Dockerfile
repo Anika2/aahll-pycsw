@@ -168,8 +168,6 @@ WORKDIR /home/pycsw
 
 COPY db-data db-data/
 
-CMD ["chmod", "777", "db-data"]
-
 USER pycsw
 
 
