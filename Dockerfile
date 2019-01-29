@@ -166,10 +166,9 @@ RUN mkdir /etc/pycsw \
 
 WORKDIR /home/pycsw
 
-COPY db-data db-data/
-
 USER pycsw
 
+COPY db-data db-data/
 
 EXPOSE 8000
 
